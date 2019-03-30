@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Yandex.Mail Sample">
+        <meta charset="utf-8">
+        <title>Yandex.Mail</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+
+  <section id = "main">
+
+    <section id="three-hlines">
+      <div id="hline-1" class="hline">
+      </div>
+
+      <div id="hline-2" class="hline">
+      </div>
+
+      <div id="hline-3" class="hline">
+      </div>
+    </section>
+
+    <section id="menu">
+      <div id="highlighted">
+      </div>
+
+      <div id="menu-items">
+
+      <p id="inbox" class="menu highlighted">
+        Входящие
+      </p>
+      <p id="sent" class="menu">
+        Отправленные
+      </p>
+      <p id="trash" class="menu">
+        Удаленные
+      </p>
+      <p id="trash" class="menu">
+        Спам
+      </p>
+      <p id="drafts" class="menu">
+        Черновики
+      </p>
+      <p id="new-folder" class="menu">
+        Создать папку
+      </p>
+
+      </div>
+    </section>
+
+    <div id = "name">
+      <img src="images/Shape.png">
+    </div>
+
+    <div id="writebox">
+      <p id="write">
+        Написать
+      </p>
+    </div>
+
+    <section id="search">
+      <p id="search-suggestion">
+        Поиск
+      </p>
+
+      <figure class="cross">
+        <img src="images/cross.png">
+      </figure>
+    </section>
+
+    <section id="letters">
+      
+      <div id="opmenu">
+        <a id="forward" title="Forward" class="opmenu">
+          Переслать
+        </a>
+
+        <a id="delete" title="Delete" class="opmenu">
+          Удалить 
+        </a>
+
+        <a id="spam" title="Spam" class="opmenu">
+          Это спам!
+        </a>
+
+        <p id="read" title="Read" class="opmenu">
+          Прочитано
+        </p>
+      </div>
+
+      <input type="checkbox" class="letter-markers" id="first-checkbox">
+
+      <div class="letter-lines" id="first-letter-line">
+      </div>
+
+      <div id="very-letters">
+        <label class="label" for="display-article">
+        <div class = "letter">
+
+          <input type="checkbox" class="letter-markers" id="ch1">
+
+          <div class="author-image">
+            <figure class="yandex-oval">
+              <img src="images/Oval-9.png">
+            </figure>
+            <figure class="Ya">
+              <img src="images/Fill-154.png">
+            </figure>
+          </div>
+
+          <p class="author unread">
+            Яндекс.Паспорт
+          </p>
+
+          <figure class="unread-oval">
+            <img src="images/Oval.png">
+          </figure>
+
+          <p class="theme unread">
+            Доступ к аккаунту восстановлен
+          </p>
+
+          <p class="date">
+            6 авг
+          </p>
+
+          <div class="letter-lines">
+          </div>
+        </div>
+        </label>
+        
+        <div class = "letter">
+
+          <input type="checkbox" class="letter-markers" id="ch2">
+
+          <div class="author-image">
+            <figure class="yandex-oval">
+              <img src="images/Oval-9.png">
+            </figure>
+            <figure class="Ya">
+              <img src="images/Fill-154.png">
+            </figure>
+          </div>
+
+          <p class="author unread">
+            Команда Яндекс.Почты
+          </p>
+
+          <figure class="unread-oval">
+            <img src="images/Oval.png">
+          </figure>
+
+          <p class="theme unread">
+            Как читать почту с мобильного
+          </p>
+
+          <p class="date">
+            6 июл
+          </p>
+
+          <div class="letter-lines">
+          </div>
+        </div>
+
+        <div class = "letter">
+
+          <input type="checkbox" class="letter-markers" id="ch3">
+
+          <div class="author-image">
+            <figure class="yandex-oval">
+              <img src="images/Oval-9.png">
+            </figure>
+            <figure class="Ya">
+              <img src="images/Fill-154.png">
+            </figure>
+          </div>
+
+          <p class="author">
+            Команда Яндекс.Почты 
+          </p>
+
+          <p class="theme">
+            Как читать почту с мобильного
+          </p>
+
+          <p class="date">
+            6 июл
+          </p>
+
+          <div class="letter-lines">
+          </div>
+        </div>
+
+        <div class = "letter">
+
+          <input type="checkbox" class="letter-markers" id="ch4">
+
+          <div class="author-image">
+            <figure class="yandex-oval">
+              <img src="images/Oval-9.png">
+            </figure>
+            <figure class="Ya">
+              <img src="images/Fill-154.png">
+            </figure>
+          </div>
+
+          <p class="author">
+            Яндекс
+          </p>
+
+          <p class="theme">
+            Соберите всю почту в этот ящик
+          </p>
+
+          <p class="date">
+            6 июл
+          </p>
+
+          <div class="letter-lines">
+          </div>
+        </div>
+
+      </div>
+
+      <input type="checkbox" id="display-article" class="display-article">
+      <input type="checkbox" id="hide-article" class="hide-article">
+
+      <label id="hide-article-label" for="hide-article">
+
+      <figure class="hide-article-cross" id="hide-article-cross">
+        <img src="images/cross.png">
+      </figure>
+
+      </label>
+
+      <div id="article">
+        <h3 class="article-title">
+          Популярный миф про белок
+        </h3>
+        <p>
+            <img src="images/nut.webp" id="nut">
+            В преддверии зимы белки (лат. Sciurus) становятся особо активными: вы можете увидеть их в лесу или в парке, лавирующих между деревьями легкими прыжками и то и дело останавливающихся, чтобы спрятать орехи или другие лакомства. Еще бы: грядут холода, плодородная осень скоро кончится, и нужно накопить достаточно запасов для пропитания, ведь в зимнюю спячку эти грызуны не впадают. Белки крайне редко прячут весь запас в одном месте: это очень рискованно. Чаще всего тайники располагаются в совершенно разных местах, расположенных на обширных территориях. Некоторые виды белок закапывают еду в землю, другие прячут ее в дуплах деревьев. Последняя тактика, как недавно выяснили ученые, может вредить деревьям. А вот оставленные в земле семена нередко прорастают, давая жизнь новым растениям. Ранее биологи думали, что в этих случаях белки просто забывают о своих тайниках, либо же не могут их найти, но несколько исследований, посвященных поведению этих грызунов, опровергли гипотезу.
+            В преддверии зимы белки (лат. Sciurus) становятся особо активными: вы можете увидеть их в лесу или в парке, лавирующих между деревьями легкими прыжками и то и дело останавливающихся, чтобы спрятать орехи или другие лакомства. Еще бы: грядут холода, плодородная осень скоро кончится, и нужно накопить достаточно запасов для пропитания, ведь в зимнюю спячку эти грызуны не впадают. Белки крайне редко прячут весь запас в одном месте: это очень рискованно. Чаще всего тайники располагаются в совершенно разных местах, расположенных на обширных территориях. Некоторые виды белок закапывают еду в землю, другие прячут ее в дуплах деревьев. Последняя тактика, как недавно выяснили ученые, может вредить деревьям. А вот оставленные в земле семена нередко прорастают, давая жизнь новым растениям. Ранее биологи думали, что в этих случаях белки просто забывают о своих тайниках, либо же не могут их найти, но несколько исследований, посвященных поведению этих грызунов, опровергли гипотезу
+            В преддверии зимы белки (лат. Sciurus) становятся особо активными: вы можете увидеть их в лесу или в парке, лавирующих между деревьями легкими прыжками и то и дело останавливающихся, чтобы спрятать орехи или другие лакомства. Еще бы: грядут холода, плодородная осень скоро кончится, и нужно накопить достаточно запасов для пропитания, ведь в зимнюю спячку эти грызуны не впадают. Белки крайне редко прячут весь запас в одном месте: это очень рискованно. Чаще всего тайники располагаются в совершенно разных местах, расположенных на обширных территориях. Некоторые виды белок закапывают еду в землю, другие прячут ее в дуплах деревьев. Последняя тактика, как недавно выяснили ученые, может вредить деревьям. А вот оставленные в земле семена нередко прорастают, давая жизнь новым растениям. Ранее биологи думали, что в этих случаях белки просто забывают о своих тайниках, либо же не могут их найти, но несколько исследований, посвященных поведению этих грызунов, опровергли гипотезу <br>
+            <a href="http://www.nat-geo.ru/nature/1244549-potaynye-zakroma-sekrety-belichikh-kladov/"> Читать далее </a>
+        </p>
+
+
+      </div>
+
+      <div class="letter-lines" id="footer-line">
+      </div>
+
+
+      <div class="footer">
+         <p class="footer-text">
+          Помощь и обратная связь&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реклама
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2001—2018, Яндекс
+         </p>
+      </div>
+
+    </section>
+
+  </section>
+
+
+</body>
+</html>
