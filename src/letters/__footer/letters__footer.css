@@ -1,0 +1,16 @@
+.letters__footer {
+    position: absolute;
+    right: 20px;
+    bottom: 9px;
+
+    color: #9b9b9b;
+    font-family: 'Helvetica Neue Medium', sans-serif;
+    font-size: 11px;
+}
+
+.letters__footer-text {
+    overflow: hidden;
+    max-width: 350px;
+    max-height: 11px;
+    margin-bottom: 2px;
+}

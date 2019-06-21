@@ -1,0 +1,52 @@
+@import "letters/letters.css";
+@import "menu/menu.css";
+@import "search/search.css";
+@import "logo/logo.css";
+@import "writebox/writebox.css";
+
+
+@font-face {
+	font-family: "Yandex Sans Light";
+	src: url(fonts/YandexSansText-Light.ttf);
+}
+
+@font-face {
+	font-family: "Yandex Sans Bold";
+	src: url(fonts/YandexSansText-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Yandex Sans Regular";
+	src: url(fonts/YandexSansText-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Helvetica Neue Bold";
+	src: url(fonts/HelveticaNeueCyr-Bold.otf);
+}
+
+@font-face {
+	font-family: "Helvetica Neue Medium";
+	src: url(fonts/HelveticaNeueCyr-Medium.otf);
+}
+
+@font-face {
+	font-family: "Helvetica Neue Light";
+	src: url(fonts/HelveticaNeueCyr-Light.otf);
+}
+
+body {
+	text-overflow: ellipsis;
+}
+
+p {
+	overflow: hidden;
+}
+
+#main {
+	height: 600px;
+	width: 800px;
+	/*background-color: #f0f8ff;*/
+	background-color: rgb(229, 234, 240);
+	position: static;
+}

@@ -1,0 +1,27 @@
+.writebox {
+  position: absolute;
+
+  width: 147px;
+  height: 32px;
+  margin-top: 56px;
+  margin-left: 22px;
+  background-color: #6287bd;
+
+  border-radius: 3px;
+}
+
+.write {
+  position: absolute;
+
+  overflow: hidden;
+
+  max-width: 60px;
+  max-height: 11px;
+  margin-top: 7px;
+  margin-left: 46px;
+
+  color: #fff;
+  font-family: 'Helvetica Neue Medium', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}

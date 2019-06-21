@@ -1,0 +1,10 @@
+@import "__hline/logo__hline.css";
+@import "__name/logo__name.css";
+
+.logo {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 22px;
+    width: 184px;
+    height: 31px;
+}

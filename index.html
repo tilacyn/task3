@@ -1,268 +1,263 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="description" content="Yandex.Mail Sample">
-        <meta charset="utf-8">
-        <title>Yandex.Mail</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+<head>
+    <meta name="description" content="Yandex.Mail Sample">
+    <meta charset="utf-8">
+    <title>Yandex.Mail</title>
+    <link rel="stylesheet" type="text/css" href="src/index.css">
+</head>
 <body>
+<script defer async src="script.js"></script>
+<section id="main">
 
-  <section id = "main">
+    <section class="logo">
+        <div class="logo__hline logo__hline_number_1">
+        </div>
 
-    <section id="three-hlines">
-      <div id="hline-1" class="hline">
-      </div>
+        <div class="logo__hline logo__hline_number_2">
+        </div>
 
-      <div id="hline-2" class="hline">
-      </div>
+        <div class="logo__hline logo__hline_number_3">
+        </div>
 
-      <div id="hline-3" class="hline">
-      </div>
+
+        <div class="logo__name">
+            <img src="src/images/Shape.png">
+        </div>
     </section>
 
-    <section id="menu">
-      <div id="highlighted">
-      </div>
 
-      <div id="menu-items">
+    <section class="menu">
+        <div class="menu__highlighted-field">
+        </div>
 
-      <p id="inbox" class="menu highlighted">
-        Входящие
-      </p>
-      <p id="sent" class="menu">
-        Отправленные
-      </p>
-      <p id="trash" class="menu">
-        Удаленные
-      </p>
-      <p id="trash" class="menu">
-        Спам
-      </p>
-      <p id="drafts" class="menu">
-        Черновики
-      </p>
-      <p id="new-folder" class="menu">
-        Создать папку
-      </p>
+        <div class="menu__items">
 
-      </div>
+            <p id="inbox" class="menu__item menu__item_highlighted">
+                Входящие
+            </p>
+            <p id="sent" class="menu__item">
+                Отправленные
+            </p>
+            <p id="trash" class="menu__item">
+                Удаленные
+            </p>
+            <p id="spam" class="menu__item">
+                Спам
+            </p>
+            <p id="drafts" class="menu__item">
+                Черновики
+            </p>
+            <p id="new-folder" class="menu__item">
+                Создать папку
+            </p>
+
+        </div>
     </section>
 
-    <div id = "name">
-      <img src="images/Shape.png">
+
+    <div class="writebox">
+        <p class="write">
+            Написать
+        </p>
     </div>
 
-    <div id="writebox">
-      <p id="write">
-        Написать
-      </p>
-    </div>
+    <section class="search">
+        <p class="search__suggestion">
+            Поиск
+        </p>
 
-    <section id="search">
-      <p id="search-suggestion">
-        Поиск
-      </p>
-
-      <figure class="cross">
-        <img src="images/cross.png">
-      </figure>
+        <figure class="search__cross">
+            <img src="src/images/cross.png">
+        </figure>
     </section>
 
-    <section id="letters">
-      
-      <div id="opmenu">
-        <a id="forward" title="Forward" class="opmenu">
-          Переслать
-        </a>
+    <section class="letters">
 
-        <a id="delete" title="Delete" class="opmenu">
-          Удалить 
-        </a>
+        <div class="letters__opmenu">
+            <a id="forward" title="Forward" class="letters__opmenu-item letters__forward">
+                Переслать
+            </a>
 
-        <a id="spam" title="Spam" class="opmenu">
-          Это спам!
-        </a>
+            <a id="delete" title="Delete" class="letters__opmenu-item letters__delete">
+                Удалить
+            </a>
 
-        <p id="read" title="Read" class="opmenu">
-          Прочитано
-        </p>
-      </div>
+            <a id="spam" title="Spam" class="letters__opmenu-item letters__spam">
+                Это спам!
+            </a>
 
-      <input type="checkbox" class="letter-markers" id="first-checkbox">
-
-      <div class="letter-lines" id="first-letter-line">
-      </div>
-
-      <div id="very-letters">
-        <label class="label" for="display-article">
-        <div class = "letter">
-
-          <input type="checkbox" class="letter-markers" id="ch1">
-
-          <div class="author-image">
-            <figure class="yandex-oval">
-              <img src="images/Oval-9.png">
-            </figure>
-            <figure class="Ya">
-              <img src="images/Fill-154.png">
-            </figure>
-          </div>
-
-          <p class="author unread">
-            Яндекс.Паспорт
-          </p>
-
-          <figure class="unread-oval">
-            <img src="images/Oval.png">
-          </figure>
-
-          <p class="theme unread">
-            Доступ к аккаунту восстановлен
-          </p>
-
-          <p class="date">
-            6 авг
-          </p>
-
-          <div class="letter-lines">
-          </div>
-        </div>
-        </label>
-        
-        <div class = "letter">
-
-          <input type="checkbox" class="letter-markers" id="ch2">
-
-          <div class="author-image">
-            <figure class="yandex-oval">
-              <img src="images/Oval-9.png">
-            </figure>
-            <figure class="Ya">
-              <img src="images/Fill-154.png">
-            </figure>
-          </div>
-
-          <p class="author unread">
-            Команда Яндекс.Почты
-          </p>
-
-          <figure class="unread-oval">
-            <img src="images/Oval.png">
-          </figure>
-
-          <p class="theme unread">
-            Как читать почту с мобильного
-          </p>
-
-          <p class="date">
-            6 июл
-          </p>
-
-          <div class="letter-lines">
-          </div>
+            <a id="read" title="Read" class="letters__opmenu-item letters__read">
+                Прочитано
+            </a>
         </div>
 
-        <div class = "letter">
+        <input type="checkbox" class="letters__marker" id="first-checkbox">
 
-          <input type="checkbox" class="letter-markers" id="ch3">
-
-          <div class="author-image">
-            <figure class="yandex-oval">
-              <img src="images/Oval-9.png">
-            </figure>
-            <figure class="Ya">
-              <img src="images/Fill-154.png">
-            </figure>
-          </div>
-
-          <p class="author">
-            Команда Яндекс.Почты 
-          </p>
-
-          <p class="theme">
-            Как читать почту с мобильного
-          </p>
-
-          <p class="date">
-            6 июл
-          </p>
-
-          <div class="letter-lines">
-          </div>
+        <div class="letters__line" id="first-letter-line">
         </div>
 
-        <div class = "letter">
+        <div class="letters__list-container">
 
-          <input type="checkbox" class="letter-markers" id="ch4">
+            <div class="letters__list letters__list_shift-down letters__list_shift-up">
 
-          <div class="author-image">
-            <figure class="yandex-oval">
-              <img src="images/Oval-9.png">
-            </figure>
-            <figure class="Ya">
-              <img src="images/Fill-154.png">
-            </figure>
-          </div>
+                <div class="letter">
 
-          <p class="author">
-            Яндекс
-          </p>
+                    <input type="checkbox" class="letters__marker" id="ch1">
 
-          <p class="theme">
-            Соберите всю почту в этот ящик
-          </p>
+                    <div class="author-image">
+                        <figure class="yandex-oval">
+                            <img src="src/images/Oval-9.png">
+                        </figure>
+                        <figure class="Ya">
+                            <img src="src/images/Fill-154.png">
+                        </figure>
+                    </div>
 
-          <p class="date">
-            6 июл
-          </p>
+                    <p class="letter__author letter_unread">
+                        Яндекс.Паспорт
+                    </p>
 
-          <div class="letter-lines">
-          </div>
+                    <figure class="letter__unread-oval">
+                        <img src="src/images/Oval.png">
+                    </figure>
+
+                    <p class="letter__theme letter_unread">
+                        Доступ к аккаунту восстановлен
+                    </p>
+
+                    <p class="letter__date">
+                        6 авг
+                    </p>
+
+                    <div class="letters__line">
+                    </div>
+                </div>
+
+                <div class="letter">
+
+                    <input type="checkbox" class="letters__marker" id="ch2">
+
+                    <div class="author-image">
+                        <figure class="yandex-oval">
+                            <img src="src/images/Oval-9.png">
+                        </figure>
+                        <figure class="Ya">
+                            <img src="src/images/Fill-154.png">
+                        </figure>
+                    </div>
+
+                    <p class="letter__author letter_unread">
+                        Команда Яндекс.Почты
+                    </p>
+
+                    <figure class="letter__unread-oval">
+                        <img src="src/images/Oval.png">
+                    </figure>
+
+                    <p class="letter__theme letter_unread">
+                        Как читать почту с мобильного
+                    </p>
+
+                    <p class="letter__date">
+                        6 июл
+                    </p>
+
+                    <div class="letters__line">
+                    </div>
+                </div>
+
+                <div class="letter">
+
+                    <input type="checkbox" class="letters__marker" id="ch3">
+
+                    <div class="author-image">
+                        <figure class="yandex-oval">
+                            <img src="src/images/Oval-9.png">
+                        </figure>
+                        <figure class="Ya">
+                            <img src="src/images/Fill-154.png">
+                        </figure>
+                    </div>
+
+                    <p class="letter__author">
+                        Команда Яндекс.Почты
+                    </p>
+
+                    <p class="letter__theme">
+                        Как читать почту с мобильного
+                    </p>
+
+                    <p class="letter__date">
+                        6 июл
+                    </p>
+
+                    <div class="letters__line">
+                    </div>
+                </div>
+
+                <div class="letter">
+
+                    <input type="checkbox" class="letters__marker" id="ch4">
+
+                    <div class="author-image">
+                        <figure class="yandex-oval">
+                            <img src="src/images/Oval-9.png">
+                        </figure>
+                        <figure class="Ya">
+                            <img src="src/images/Fill-154.png">
+                        </figure>
+                    </div>
+
+                    <p class="letter__author">
+                        Яндекс
+                    </p>
+
+                    <p class="letter__theme">
+                        Соберите всю почту в этот ящик
+                    </p>
+
+                    <p class="letter__date">
+                        6 июл
+                    </p>
+
+                    <div class="letters__line">
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
-      </div>
 
-      <input type="checkbox" id="display-article" class="display-article">
-      <input type="checkbox" id="hide-article" class="hide-article">
+        <div class="letters__article" id="article">
+            <h3 class="letters__article-title">
 
-      <label id="hide-article-label" for="hide-article">
+            </h3>
+            <p>
 
-      <figure class="hide-article-cross" id="hide-article-cross">
-        <img src="images/cross.png">
-      </figure>
+            </p>
 
-      </label>
+            <figure class="letters__cross" id="hide-article-cross">
+                <img src="src/images/cross.png" alt="hide">
+            </figure>
 
-      <div id="article">
-        <h3 class="article-title">
-          Популярный миф про белок
-        </h3>
-        <p>
-            <img src="images/nut.webp" id="nut">
-            В преддверии зимы белки (лат. Sciurus) становятся особо активными: вы можете увидеть их в лесу или в парке, лавирующих между деревьями легкими прыжками и то и дело останавливающихся, чтобы спрятать орехи или другие лакомства. Еще бы: грядут холода, плодородная осень скоро кончится, и нужно накопить достаточно запасов для пропитания, ведь в зимнюю спячку эти грызуны не впадают. Белки крайне редко прячут весь запас в одном месте: это очень рискованно. Чаще всего тайники располагаются в совершенно разных местах, расположенных на обширных территориях. Некоторые виды белок закапывают еду в землю, другие прячут ее в дуплах деревьев. Последняя тактика, как недавно выяснили ученые, может вредить деревьям. А вот оставленные в земле семена нередко прорастают, давая жизнь новым растениям. Ранее биологи думали, что в этих случаях белки просто забывают о своих тайниках, либо же не могут их найти, но несколько исследований, посвященных поведению этих грызунов, опровергли гипотезу.
-            В преддверии зимы белки (лат. Sciurus) становятся особо активными: вы можете увидеть их в лесу или в парке, лавирующих между деревьями легкими прыжками и то и дело останавливающихся, чтобы спрятать орехи или другие лакомства. Еще бы: грядут холода, плодородная осень скоро кончится, и нужно накопить достаточно запасов для пропитания, ведь в зимнюю спячку эти грызуны не впадают. Белки крайне редко прячут весь запас в одном месте: это очень рискованно. Чаще всего тайники располагаются в совершенно разных местах, расположенных на обширных территориях. Некоторые виды белок закапывают еду в землю, другие прячут ее в дуплах деревьев. Последняя тактика, как недавно выяснили ученые, может вредить деревьям. А вот оставленные в земле семена нередко прорастают, давая жизнь новым растениям. Ранее биологи думали, что в этих случаях белки просто забывают о своих тайниках, либо же не могут их найти, но несколько исследований, посвященных поведению этих грызунов, опровергли гипотезу
-            В преддверии зимы белки (лат. Sciurus) становятся особо активными: вы можете увидеть их в лесу или в парке, лавирующих между деревьями легкими прыжками и то и дело останавливающихся, чтобы спрятать орехи или другие лакомства. Еще бы: грядут холода, плодородная осень скоро кончится, и нужно накопить достаточно запасов для пропитания, ведь в зимнюю спячку эти грызуны не впадают. Белки крайне редко прячут весь запас в одном месте: это очень рискованно. Чаще всего тайники располагаются в совершенно разных местах, расположенных на обширных территориях. Некоторые виды белок закапывают еду в землю, другие прячут ее в дуплах деревьев. Последняя тактика, как недавно выяснили ученые, может вредить деревьям. А вот оставленные в земле семена нередко прорастают, давая жизнь новым растениям. Ранее биологи думали, что в этих случаях белки просто забывают о своих тайниках, либо же не могут их найти, но несколько исследований, посвященных поведению этих грызунов, опровергли гипотезу <br>
-            <a href="http://www.nat-geo.ru/nature/1244549-potaynye-zakroma-sekrety-belichikh-kladov/"> Читать далее </a>
-        </p>
+        </div>
+
+        <div class="letters__line letters__footer-line" id="footer-line">
+        </div>
 
 
-      </div>
-
-      <div class="letter-lines" id="footer-line">
-      </div>
-
-
-      <div class="footer">
-         <p class="footer-text">
-          Помощь и обратная связь&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реклама
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2001—2018, Яндекс
-         </p>
-      </div>
+        <div class="letters__footer">
+            <p class="letters__footer-text">
+                Помощь и обратная связь&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реклама
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2001—2018, Яндекс
+            </p>
+        </div>
 
     </section>
 
-  </section>
+</section>
 
 
 </body>

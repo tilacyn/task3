@@ -1,0 +1,110 @@
+.letters__line {
+    position: absolute;
+
+    width: inherit;
+    height: 0;
+    margin-top: 41px;
+
+    border: 1px solid #e2e2e2;
+}
+
+.letters__marker {
+    position: absolute;
+
+    width: 16px;
+    height: 16px;
+    margin-top: 14px;
+    margin-left: 20px;
+
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.label {
+    width: inherit;
+}
+
+/* Single letter */
+
+.author-image {
+    position: absolute;
+
+    width: 30px;
+    height: inherit;
+    margin-top: 6px;
+    margin-left: 46px;
+}
+
+.letter {
+    width: inherit;
+    height: 43px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.yandex-oval {
+    position: absolute;
+
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.Ya {
+    position: absolute;
+
+    margin-top: 7px;
+    margin-left: 9px;
+}
+
+.letter__author {
+    position: absolute;
+
+    max-width: 160px;
+    max-height: 13px;
+    margin-top: 17px;
+    margin-left: 86px;
+    color: #000;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    font-size: 13px;
+}
+
+.letter__unread-oval {
+    position: absolute;
+
+    margin-top: 12px;
+    margin-left: 261px;
+}
+
+.letter__theme {
+    position: absolute;
+
+    max-width: 210px;
+    max-height: 13px;
+    margin-top: 17px;
+    margin-left: 281px;
+    color: #000;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    font-size: 13px;
+}
+
+.letter__theme:hover {
+    background-color: grey;
+}
+
+.letter_unread {
+    font-family: 'Helvetica Neue Bold', sans-serif;
+}
+
+.letter__date {
+    position: absolute;
+    right: 20px;
+
+    max-width: 50px;
+    max-height: 13px;
+    margin-top: 17px;
+    color: #9b9b9b;
+    font-family: 'Helvetica Neue Medium', sans-serif;
+    font-size: 13px;
+}
